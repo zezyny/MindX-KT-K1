@@ -1,0 +1,100 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  padding: 0;
+  width: 1000px;
+}
+h1, h3 {
+  font-family: "Merriweather", serif;
+  color: #151B32;
+}
+
+/* CSS Header */
+header h1 {
+  font-size: 32px;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .nb-search {
+  border: 1px solid #bfc8e6;
+  width: 327px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+header .nb-search span i {
+  padding: 20px;
+}
+header input {
+  border: none;
+  background-color: transparent;
+  height: 100%;
+}
+header input::placeholder {
+    color: #151B32;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+header .nb-tab span {
+    font-size: 16px;
+    color: #151B32;
+    padding: 10px;
+}
+header .nb-tab .focus {
+    background-color:#849FFF ;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+}
+/* CSS List user */
+.list-user {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.user-container {
+    background-color: #fbfcff;
+    border-radius: 16px;
+    width:  327px;
+    height: 208px;
+    margin: 10px 0;
+    display: flex;
+    position: relative;
+}
+.user-container img {
+    width: 97px;
+    height: 97px;
+    margin: 15px;
+}
+.user-info {
+    margin-top: 35px;
+}
+.user-container .user-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.user-container .user-info p {
+    font-size: 14px;
+    color: #151B32;
+    margin: 5px 0;
+}
+
+.user-container .user-info span {
+    font-size: 12px;
+    border: 1px solid #bfc8e6;
+    border-radius: 10px ;
+    padding: 3px 7px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #516fd4;
+}
+.user-hobby {
+    display: flex;
+    flex-wrap: wrap;
+}
